@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="historia da verse" content="width=device-width, initial-scale=1.0">
+    <title>verse.tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <ul id="menu-verse">
+        <img src="c:\Users\Aluno\Downloads\Ativo 2 2.png" alt="">
+        <li>Sobre</li>
+        <li>Catálogo</li>
+        <li>Contato</li>
+    </ul>
+
+
+    <h1><strong>VERSE.TECH</strong></h1>
+    <center>
+        <p>A Verse.tech é uma empresa de tecnologia que se destaca por sua inovação constante. Com uma equipe talentosa
+            de engenheiros e designers, a Verse.tech <p>cria soluções tecnológicas de ponta, desde aplicativos móveis até
+            sistemas de inteligência artificial. Seu compromisso <p>com a qualidade e a excelência a coloca na vanguarda
+            da indústria de tecnologia. </p>
+    </center>
+    <img src="c:\Users\Aluno\Downloads\Group 15.png" width="350" height="450" alt="imagens" class="imagem-direita">
+    <img src="c:\Users\Aluno\Downloads\Group 16.png" width="250" height="350" alt="imagens">
+
+    <footer>
+        <p>Para mais informações acesse aqui!!</p> <button class="meubotao"></button>
+    </footer>
+
+    <div class="popup-container" id="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <div class="popup-content">
+          <h1>Seja bem-vindo!</h1>
+          <p>Cadastre-se e ganhe um cupom </p>
+          <p> de frete grátis em sua primeira compra.</p>
+          <input type="text" placeholder="e-mail">
+         <button>Enviar</button>
+        </div>
+      </div>
+
+
+      <script>
+       function abrirPopup() {
+          document.getElementById("popup").style.display = "block";
+        }
+   
+        function closePopup() {
+          document.getElementById("popup").style.display = "none";
+        }
+        window.onload = function () {
+            setTimeout(abrirPopup,5000);
+        }
+      </script>
+
+</body>
+</html>
